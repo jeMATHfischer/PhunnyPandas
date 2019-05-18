@@ -4,7 +4,7 @@ import io
 
 url = 'https://api.production.mtomady.com/hack_hpi/claims?page=1'
 payload = {}
-headers = {'Authorization':'Token uVXKbFwkmKPEyJYeWagJUHtYEAoAWP4NtrzRtQFFvCHjVVT'}
+headers = {}
 r = requests.request('GET', url, headers = headers, data = payload, allow_redirects=False)
 
 #df = pd.read_json(io.StringIO(response.decode('utf-8')))
